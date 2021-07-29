@@ -2,10 +2,10 @@
 
 ## download the index.js file ro setup the bot and replace "YOUR TOKEN HERE" with the token of the bot
 
-To learn how to make a [discord bot](https://www.discordbotsetup.tk/)
-make sure you have [node.js](https://nodejs.org/en/) installed
+> To learn how to make a [discord bot](https://www.discordbotsetup.tk/)
+> make sure you have [node.js](https://nodejs.org/en/) installed
+> in the directory that the index.js file is in after [node.js](https://nodejs.org/en/) is installed paste **npm install discord.js** 
 
-download the index.js file ro setup the bot and replace "YOUR TOKEN HERE" with the token of the bot
 
 you can use 
 ```
