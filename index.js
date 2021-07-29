@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
+//({ ws: { properties: { $browser: "Discord iOS" }} });
+// remove the // at the start of the text above to have mobile status on the bot
 
 client.on('ready', () => {
   console.log('I am ready!');
@@ -8,8 +9,7 @@ client.on('ready', () => {
 
  //status
 client.once('ready', () => { client.user.setActivity('!help', { type: "PLAYING" }); });
-//({ ws: { properties: { $browser: "Discord iOS" }} });
-// remove the // at the start of the text above to have mobile status on the bot
+
 
   
 //ping reply
