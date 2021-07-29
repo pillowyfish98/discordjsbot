@@ -32,3 +32,6 @@ to send a message in that channel
 <p align="center">
   <img alt="reply" src="https://i.imgur.com/68oPmiC.png">
 </p>
+
+make sure you have [node.js](https://nodejs.org/en/) installed
+
