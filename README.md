@@ -1,4 +1,4 @@
-copy and paste the code from index.js
+# copy and paste the code from index.js
 
 you can use 
 
@@ -17,10 +17,10 @@ to ping a reply
 or
 you can use 
 
-[client.on("message", msg => {
-[  if (msg.content === '!help') {
-[    msg.channel.send('YOUR MESSAGE HERE');
-[  }
+client.on("message", msg => {
+  if (msg.content === '!help') {
+    msg.channel.send('YOUR MESSAGE HERE');
+  }
 [});
 
 to send a message in that channel
