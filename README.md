@@ -16,11 +16,15 @@ to ping a reply
 
 or
 you can use 
-//soundcloud
-client.on("message", msg => {
+
+[client.on("message", msg => {
   if (msg.content === '!help') {
     msg.channel.send('YOUR MESSAGE HERE');
   }
 });
 
 to send a message in that channel
+
+<p align="center">
+  <img alt="reply" src="https://i.imgur.com/68oPmiC.png">
+</p>
