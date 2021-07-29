@@ -8,11 +8,21 @@ client.on('ready', () => {
 
  //status
 client.once('ready', () => { client.user.setActivity('!help', { type: "PLAYING" }); });
+//({ ws: { properties: { $browser: "Discord iOS" }} });
+// remove the // at the start of the text above to have mobile status on the bot
+
   
-//command
+//ping reply
 client.on("message", msg => {
   if (msg.content === '!help') {
     msg.reply('YOUR MESSAGE HERE');
+  }
+});
+
+//message reply
+client.on("message", msg => {
+  if (msg.content === '!help') {
+    msg.channel.send('YOUR MESSAGE HERE');
   }
 });
 
