@@ -18,10 +18,10 @@ or
 you can use 
 
 [client.on("message", msg => {
-  if (msg.content === '!help') {
-    msg.channel.send('YOUR MESSAGE HERE');
-  }
-});
+[  if (msg.content === '!help') {
+[    msg.channel.send('YOUR MESSAGE HERE');
+[  }
+[});
 
 to send a message in that channel
 
