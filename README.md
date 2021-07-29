@@ -1,8 +1,11 @@
 # Discord JavaScript Bot Setup
 
-To learn how to make a [discord bot](https://sites.google.com/view/discordbotsetup/)
+## download the index.js file ro setup the bot and replace "YOUR TOKEN HERE" with the token of the bot
 
-copy and paste the code from index.js
+To learn how to make a [discord bot](https://www.discordbotsetup.tk/)
+make sure you have [node.js](https://nodejs.org/en/) installed
+
+download the index.js file ro setup the bot and replace "YOUR TOKEN HERE" with the token of the bot
 
 you can use 
 ```
@@ -33,5 +36,4 @@ to send a message in that channel
   <img alt="reply" src="https://i.imgur.com/68oPmiC.png">
 </p>
 
-make sure you have [node.js](https://nodejs.org/en/) installed
 
