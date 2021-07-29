@@ -1,5 +1,6 @@
 # Discord JavaScript Bot Setup
 
+To learn how to make a discord bot [(discordbotsetup.tk)]
 
 copy and paste the code from index.js
 
